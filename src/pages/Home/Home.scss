@@ -1,0 +1,33 @@
+.home-page{
+    background:linear-gradient( to left top, slateblue, skyblue);
+    min-height: calc(100vh - 67px); // nav barın yüksekliğini cıkarttık ve scrool işlemi bitti
+    padding: 50px 0;
+   
+    
+
+    & .page-title{
+        text-align: center;
+        color:wheat
+    }
+    & .home-link{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        
+       & .homeLink {
+        text-decoration: none;
+        background-color:wheat;
+        margin: 10px;
+        padding: 5px 20px;
+        font-size: large;
+        border: 1px solid slateblue 0.5;
+        border-width: 5px;
+        color: black;
+        
+       }
+  
+    }
+  
+}

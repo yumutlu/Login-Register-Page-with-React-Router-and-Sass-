@@ -1,0 +1,49 @@
+.toolbar{
+    background-color: slateblue;
+    color: snow;
+    display: flex;
+    justify-content: space-between;
+
+    & .toolbar-title{
+        color: snow;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        font-weight: 600px;
+        font-size:28px;
+        padding: 15px 30px;
+
+        &:hover{
+            background-color: gray;
+        }
+
+    }
+
+    & .toolbar-links{
+
+        display: flex;
+        list-style-type: none;
+
+    & .toolbar-item {
+    display:flex; 
+    }
+        & .toolbar-link {
+
+            color: snow;
+            text-decoration: none;
+            padding: 15px 30px;
+            transition: 200ms ease-in-out;
+            display: flex;
+            align-items: center;
+
+            &:hover{
+                background-color: gray;
+            }
+
+        }
+
+    }
+
+    
+}
+

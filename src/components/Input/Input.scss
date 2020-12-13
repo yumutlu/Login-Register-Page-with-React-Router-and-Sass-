@@ -1,0 +1,21 @@
+.form-group{
+    & label{
+        display: block;
+        font-weight: 500;
+    }
+  
+    & input{
+       padding: 10px 5px;
+        width: 100%;
+        background:snow ;
+        margin: 4px 0 15px 0px;
+        font-size: 18px;
+        border:  2px solid gray;
+        border-radius: 2px;
+        outline: none ;
+
+        &:focus{
+            border-color: slateblue;
+        }
+    }
+}
